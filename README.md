@@ -1,41 +1,12 @@
-# Mern-Authentication-
-🚀 Features of MERN Authentication System
-🔒 Authentication & Security
-✅ User Registration & Login (with JWT)
+# React + Vite
 
-✅ Access & Refresh Tokens using JWT
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-✅ Password Hashing using bcrypt
+Currently, two official plugins are available:
 
-✅ Secure API routes with JWT middleware
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-✅ HTTP-only cookies for secure token storage
+## Expanding the ESLint configuration
 
-📧 Email Functionality
-✅ Email Verification on user signup
-
-✅ Account Activation via email token
-
-✅ Forgot Password link sent via email
-
-✅ Reset Password with token validation
-
-👨‍💻 User Experience
-✅ Fully Responsive UI built with React.js
-
-✅ Form Validation (Client + Server side)
-
-✅ Conditional Routing (protected/private routes)
-
-✅ Global Auth State using Context API
-
-✅ Toast Notifications for user feedback
-
-🧪 Backend Features
-✅ Node.js + Express REST API
-
-✅ MongoDB Database with Mongoose
-
-✅ Centralized Error Handling
-
-✅ Environment Configuration using .env
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
